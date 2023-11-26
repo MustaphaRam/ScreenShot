@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Screen Shot{% endblock %}
+{% form_theme form 'bootstrap_5_layout.html.twig' %}
+{% block body %}
+    {# <div id=""></div>
+    <script src="{{ asset('build/app1.js') }}"></script> #}
+    
+    <div class="container p-5">
+        <h2 class="h2">Screen Shot</h2>
+        <div class="row">
+            {{ form_start(form) }}
+                <div class="row">
+                    <div class="col-xl-9">{{ form_row(form.url, {'label': 'Set url'}) }}</div>
+                    <div class="col-xl-3">
+                        <label for="screen_size" class="form-label required">Size</label>
+                        <select name="{{ field_name(form.size) }}" class="form-control">
+                            <option value="600">600px</option>
+                            <option value="800">800px</option>
+                            <option value="1080">1080px</option>
+                        </select>
+                    </div>
+                </div>
+            {{ form_end(form) }}
+        </div>
+        <div class="row">
+            <div class="text-center">
+            {% if img_bass64 is defined %}
+                <img src="{{ img_bass64 }}" class="img-fluid" alt="Screenshot">
+            {% endif %}
+            <div>
+        <div>
+    </div>
+
+{% endblock %}
