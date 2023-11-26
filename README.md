@@ -1,6 +1,6 @@
 # screenShot
 
-[![Symfony](https://img.shields.io/badge/Symfony-%5E4.4-blueviolet)](https://symfony.com/)
+[![Symfony](https://img.shields.io/badge/Symfony-%5E6.0-blueviolet)](https://symfony.com/)
 [![Vue.js](https://img.shields.io/badge/Vue.js-%5E3.0-brightgreen)](https://vuejs.org/)
 
 ## Description
@@ -21,7 +21,7 @@ It allows users to capture screenshots of websites by providing the URL and spec
 
 ## Requirements
 
-- PHP (>=7.2)
+- PHP (>=8.0)
 - Composer
 - Node.js
 - Yarn or npm
