@@ -36,19 +36,23 @@ It allows users to capture screenshots of websites by providing the URL and spec
   2. Install PHP dependencies:
 
   ```bash
-  composer install```
+  composer install
+```
+
   Install JavaScript dependencies:
 
   ```bash
   yarn install
   # or 
-  npm install```
+  npm install
+```
 Build the frontend assets:
 
 ```bash
 yarn build
 # or 
-npm run build```
+npm run build
+```
 Configure your environment variables:
 
 Create a .env.local file in the project root and configure the necessary variables, including database settings, if applicable.
@@ -56,7 +60,8 @@ Create a .env.local file in the project root and configure the necessary variabl
 Set up the database (if applicable):
 
 ```bash
-symfony serve```
+symfony serve
+```
 The application will be accessible at http://localhost:8000.
 
 Usage
