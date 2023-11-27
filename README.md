@@ -62,7 +62,7 @@ Set up the database (if applicable):
 ```bash
 symfony serve
 ```
-The application will be accessible at http://localhost:8000.
+The application will be accessible at http://localhost:8000/tackScreen.
 
 Usage
 Access the application in your web browser.
